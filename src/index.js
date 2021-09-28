@@ -136,6 +136,7 @@ const startWebcam = () => {
   //      videoDevices[0] : Front Camera android / back camera ios
   //      videoDevices[1] : Back Camera android / front camera ios
   //----------------------------------------------------------------------
+  console.log('ACAAAAAAAAAAAAA!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!');
   navigator.mediaDevices.enumerateDevices()
   .then(devices => {
     let videoDevices = [0,0];
